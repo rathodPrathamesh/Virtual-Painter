@@ -1,6 +1,5 @@
 import cv2
 import numpy as np
-import time
 import os
 import HandTrackingModule as htm
 
@@ -45,7 +44,7 @@ while True:
     #check fingers UP
         fingers = detector.fingersUP()
 
-    #If selection mode
+    #If selection made
         if fingers[1] and fingers[2]:
             xp, yp = 0, 0
             #checking for the click
@@ -90,5 +89,4 @@ while True:
 
 
     cv2.imshow("Drawing Space", img)
-   # cv2.imshow("Canvas", imgCanvas)
     cv2.waitKey(1)
