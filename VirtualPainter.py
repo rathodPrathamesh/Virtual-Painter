@@ -55,7 +55,7 @@ while True:
                     drawcolor = (255,0,255)
                 if 400 < x1 < 550:
                     header = overlayList[2]
-                    drawcolor = (255, 0, 0)
+                    drawcolor = (255, 0, 100)
                 if 700<x1<850:
                     header=overlayList[3]
                     drawcolor = (0, 255, 0)
