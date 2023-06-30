@@ -8,3 +8,6 @@ The Virtual Painter project allows users to paint on a digital canvas using hand
 
 
 1 Index finger for drawing
+
+### Here is the link to video demonstration:
+https://drive.google.com/file/d/1s36ThNIx0k7KnBMRUNtYxVr-vmB9aYmN/view?usp=sharing
